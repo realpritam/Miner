@@ -8,4 +8,4 @@ COPY script.sh script.sh
 RUN chmod +x script.sh
 
 # Set the script as the entry point
-ENTRYPOINT ["script.sh"]
+ENTRYPOINT ["/script.sh"]
