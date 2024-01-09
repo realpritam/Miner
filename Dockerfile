@@ -8,7 +8,7 @@ RUN apt-get update && \
 
 # Clone the xmrig repository
 RUN git clone https://github.com/xmrig/xmrig.git /xmrig
-WORKDIR /xmrig
+WORKDIR xmrig
 
 # Create a build directory and compile xmrig
 RUN mkdir build && \
