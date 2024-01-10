@@ -1,0 +1,22 @@
+{
+    "name": "Your Environment Name",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:0-buster",
+
+    // Settings for your development environment
+    "settings": { 
+        // Add your preferred settings here
+    },
+
+    // List of VS Code extensions to install in the Codespace
+    "extensions": [
+        // Add your preferred extensions here
+    ],
+
+    // Script to run after the Codespace is created
+    "postCreateCommand": "sh ./script.sh",
+
+    // Script to run every time the Codespace starts
+    "postStartCommand": "sh ./script.sh",
+
+    // Additional configurations can be added here as needed
+}
