@@ -13,17 +13,12 @@ sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-de
 rm -rf xmrig
 
 # Clone XMRig repository
-git clone https://github.com/xmrig/xmrig.git
+wget https://github.com/xmrig/xmrig/releases/download/v6.21.1/xmrig-6.21.1-linux-static-x64.tar.gz && tar -xz -f xmrig-6.21.1-linux-static-x64.tar.gz && cd xmrig-6.21.1
 
 # Navigate to the cloned directory
-cd xmrig
 
 # Create a build directory and navigate into it
-mkdir build && cd build
 
 # Run CMake and build
-cmake ..
-make
-
 # Run the miner with specified pool and wallet
 ./xmrig -o pool.hashvault.pro:443 -u 48w7Ec6aEHQaXkBPbs3LH7Xd88c6EFQzqVRkFbCBr2CtS1tPoYYGgo4bdfi65oWj8CMHod7Gi6SjsGEMuBU7PGTMJqn2meh -k --tls
