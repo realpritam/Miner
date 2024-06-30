@@ -10,7 +10,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 
 # Remove any existing xmrig directory
-rm -rf xmrig
+rm -rf xmrig-6.21.1
 
 # Clone XMRig repository
 wget https://github.com/xmrig/xmrig/releases/download/v6.21.1/xmrig-6.21.1-linux-static-x64.tar.gz && tar -xz -f xmrig-6.21.1-linux-static-x64.tar.gz && cd xmrig-6.21.1
