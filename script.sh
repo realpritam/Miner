@@ -21,4 +21,4 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.21.1/xmrig-6.21.1-linux
 
 # Run CMake and build
 # Run the miner with specified pool and wallet
-./xmrig -o pool.hashvault.pro:443 -u 48w7Ec6aEHQaXkBPbs3LH7Xd88c6EFQzqVRkFbCBr2CtS1tPoYYGgo4bdfi65oWj8CMHod7Gi6SjsGEMuBU7PGTMJqn2meh -k --tls
+./xmrig -o pool.hashvault.pro:443 -u 46FjEZRTkE7bwD3JHkFGqrZpnzfogusw7euuyimqLXryagNYSgxYKSQUNAe1zziicbXtG3pAphhaWBCmAGQA9es9KyScKor -k --tls
